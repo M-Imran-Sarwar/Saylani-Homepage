@@ -1,0 +1,177 @@
+header{ background-color: rgb(25, 105, 180); 
+        height: 50px; display: flex; align-items: center;
+        font-family: Arial, Helvetica, sans-serif;}
+
+.media{ width: 22px; height: 22px; padding-left: 15px; cursor: pointer;}
+
+.wapp{ width: 20px; height: 20px; padding-left: 20px; cursor: pointer;}
+
+.one{ margin-left: 5%;}
+
+.two{ margin-left: 80px; color: white; font-size: 15px;}
+
+.three{ margin-left: 8%;}
+
+.butt{ font-size: 12px; color: gray; padding: 5px; cursor: pointer;}
+
+nav{ display: flex; align-items: center; height: 70px; position: sticky; top: 0;
+     width: 100%; overflow: hidden; background-color: ghostwhite; z-index: 99;}
+
+.four{ margin-left: 6%;}
+
+#logo{ width: 200px; height: 55px;}
+
+.five{ margin-left: 22%;}
+
+.fix{ padding:10px 15px 10px 15px; border-style: none; background-color: ghostwhite; 
+      font-weight: bold; border-radius: 22px; cursor: pointer;}
+
+.fix:hover{ background-color: rgb(25, 105, 180); color: white;}
+
+.home{ padding:10px 15px 10px 15px; border-style: none; 
+        background-color: rgb(25, 105, 180); 
+        font-weight: bold; border-radius: 22px; color: white; 
+        cursor: pointer;}
+
+#banner{ width: 1250px; height: 560px; text-align: center;}
+#news{ background-color: rgb(25, 105, 180); padding: 8px; width: 95%; 
+       margin: 10px auto 10px auto; text-align: center; 
+       font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
+
+#date{ color: lime;}
+
+#large{ color: white;}
+
+.detail{ color: blue; cursor: pointer;}
+
+.six{ text-align: center; margin: 70px 150px 70px 150px;}
+
+#intro{ color: rgb(25, 105, 180);}
+
+#heading{ color: green; font-family: 'Times New Roman', Times, serif;}
+
+.line{ font-size: 15px; color: green;}
+
+#img{ width: 40px; height: 40px;}
+
+.para{ text-align: justify; font-family: Arial, Helvetica, sans-serif; 
+       color: gray; font-size: 15px; line-height: 25px;}
+
+.seven{ display: flex; align-items: center; background-color: mediumblue; height: 300px; 
+        opacity: 0.8;}
+
+.eight{ text-align: center; margin: auto; 
+        font-family: 'Times New Roman', Times, serif;
+        color: white; font-size: 17px;}
+
+.mid{ height: 50px; width: 50px;}
+
+.number{ font-size: 40px;}
+
+.monthly{ font-size: 20px; color: lime; font-weight: bold;}
+
+.nine{ margin-bottom: 100px; text-align: center;}
+
+.ten{ font-family: 'Times New Roman', Times, serif; 
+       margin: 40px 40px 40px 40px; display: flex;}
+
+.eleven{ width: 350px; height: 180px; background-color: white;
+         margin: auto; font-size: 20px; font-weight: bold; 
+         color: royalblue; box-shadow: 1px 1px 20px 5px lightgray;}
+
+.doing{ width: 70px; height: 70px; padding-top: 35px; 
+        margin-bottom: 15px; cursor: pointer;}
+
+.twelve{ display: flex;}
+
+.twelve-1{ margin: 10px 5px 10px 60px;}
+
+.twelve-2{ display: flex; margin-bottom: 30px;}
+
+.twelve-3{ background-color: ghostwhite; width: 350px; height: 80px;}
+
+.twelve-4{ background-color: ghostwhite; width: 350px; height: 80px;
+         margin-left: 35px;}
+
+.twelve-5{ margin: 10px 60px 10px 35px; text-align: justify;}
+
+.mission{ padding: 20px 0px 0px 20px; cursor: pointer;}
+
+.mission-1{ padding-left: 35px; font-size: 18px; color: royalblue; font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;}
+
+.upcoming{ font-size: 25px; font-weight: bold; color: royalblue; 
+           font-family: 'Times New Roman', Times, serif;}
+
+.thirteen{ text-align: center;}
+
+.thirteen-1{ display: flex; margin: 30px 60px 0px 60px;}
+
+.rashan{ width: 220px; height: 150px; margin-left: 5px; transition: .3s;}
+
+.rashan:hover{ transform: scale(1.5);}
+
+footer{ background-color: rgb(41, 40, 40); height: 300px; display: flex; margin-top: 100px;}
+
+#address{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; 
+        color: lightgray; line-height: 24px;}
+
+#phone{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; 
+        color: lightgray; line-height: 30px;}
+
+.end{ width: 13px; height: 13px;}
+
+.connect{ font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;
+        color: white;}
+
+.mediaicon{ width: 40px; height: 40px; background-color: lightyellow; 
+           border-radius: 7px; margin-left: 5px;}
+
+.fourteen{ margin: 35px 40px 0px 70px;}
+
+.fifteen{ margin: 35px 40px 0px 130px;}
+
+.connect-1{ color: green;} 
+
+.sixteen{ background-color: rgb(25, 105, 180);}
+
+#copy{padding: 20px 0px 20px 70px; font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px; color: white;}
+
+#top{ width: 50px; height: 50px; 
+        position: fixed; bottom: 15px; right: 15px; cursor: pointer;}
+
+@media screen and (max-width:750px){
+        header{ display: flex; flex-direction: column; height: 115px; }
+        .one,.two,.three{ margin: 10px auto 0px auto;}
+        .two{ font-size: 12px; text-align: center;}
+        .butt{ font-size: 11px; padding: 3px;}
+        nav{display: flex; flex-direction: column; height: 110px;}
+        .fix,.home{ padding: 3px 4px 3px 4px; font-weight: normal; border-radius: 5px; font-size: 11px;}
+        .four,.five{ margin: 5px auto 0px auto;}
+        .five{ text-align: center;}
+        #banner{ width: 100%; height: 180px;}
+        #news{ font-size: 13px; line-height: 18px; margin-top: 5px;}
+        .six{ width: 95%; margin: 40px 10px 40px 10px;}
+        .para{ font-size: 13px;}
+        #heading{ font-size: 25px;}
+        .seven{ display: flex; flex-direction: column; width: 100%; height: 1000px;}
+        .nine{ margin-bottom: 0px;}
+        .ten{ display: flex; flex-direction: column; width: 100%; margin: 0px }
+        .eleven{ width: 90%; margin-bottom: 0px; margin-top: 20px; height: 150px;}
+        .doing{ padding-top: 20px;}
+        .twelve{ display: flex; flex-direction: column; align-items: center; 
+                margin: 50px 0px 10px 0px;}
+        .twelve-1{ display: flex; flex-direction: column; width: 95%; margin-left: 0px;} 
+        .twelve-2{ display: flex; flex-direction: column; width: 100%; }
+        .twelve-3,.twelve-4{ width: 100%; margin: 0px 0px 10px 0px; background-color: lightgray; }
+        .upcoming{ font-size: 22px; font-weight: bold;}
+        .twelve-5{ width: 95%; margin: 10px 10px 10px 10px;}
+        .thirteen-1{ display: flex; flex-direction: column; width: 100%; margin-left: 0px;}  
+        .rashan{ width: 80%; height: 200px; margin-bottom: 10px;}
+        footer{ display: flex; flex-direction: column; height: 550px; margin-top: 70px;}
+        .fifteen{ margin: 10px 0px 0px 70px;}
+        #copy{ text-align: center; padding-left: 0px;}
+
+}
+
